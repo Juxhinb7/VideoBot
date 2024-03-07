@@ -1,0 +1,201 @@
+INFO:root:Program started!
+INFO:root:Initializing the ContentGenerator Object...
+INFO:root:ContentGenerator Object initialized!
+INFO:root:Generating story...
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:11434
+DEBUG:urllib3.connectionpool:http://localhost:11434 "POST /api/generate HTTP/1.1" 200 None
+INFO:root:Story generated!
+INFO:root:Initializing the VideoGenerator Object...
+INFO:root:VideoGenerator Object initialized!
+INFO:root:Applying images...
+INFO:root:Images applied!
+INFO:root:Generating video...
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'cHRM' 41 32
+DEBUG:PIL.PngImagePlugin:STREAM b'bKGD' 85 6
+DEBUG:PIL.PngImagePlugin:b'bKGD' 85 6 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 103 894
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'cHRM' 41 32
+DEBUG:PIL.PngImagePlugin:STREAM b'bKGD' 85 6
+DEBUG:PIL.PngImagePlugin:b'bKGD' 85 6 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 103 894
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 1009 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 1030 15
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 1057 37
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 1106 37
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 1155 40
+DEBUG:PIL.Image:Error closing: Operation on closed image
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'cHRM' 41 32
+DEBUG:PIL.PngImagePlugin:STREAM b'bKGD' 85 6
+DEBUG:PIL.PngImagePlugin:b'bKGD' 85 6 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 103 32768
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'cHRM' 41 32
+DEBUG:PIL.PngImagePlugin:STREAM b'bKGD' 85 6
+DEBUG:PIL.PngImagePlugin:b'bKGD' 85 6 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 103 32768
+DEBUG:PIL.PngImagePlugin:STREAM b'zTXt' 39216 224
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 39452 15
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 39479 37
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 39528 37
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 39577 40
+DEBUG:PIL.Image:Error closing: Operation on closed image
+INFO:root:Video generated!
+INFO:root:Saving video...
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'cHRM' 41 32
+DEBUG:PIL.PngImagePlugin:STREAM b'bKGD' 85 6
+DEBUG:PIL.PngImagePlugin:b'bKGD' 85 6 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 103 27473
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'cHRM' 41 32
+DEBUG:PIL.PngImagePlugin:STREAM b'bKGD' 85 6
+DEBUG:PIL.PngImagePlugin:b'bKGD' 85 6 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 103 27473
+DEBUG:PIL.PngImagePlugin:STREAM b'iTXt' 27588 182
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 27782 15
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 27809 37
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 27858 37
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 27907 40
+DEBUG:PIL.Image:Error closing: Operation on closed image
+DEBUG:gtts.tts:text: In the vast expanse of Ancient Greece, in the city-state of Thebes, there lived a mighty child named Alcides. Born to Zeus and the mortal woman Alcmene, he was fated for greatness from the very start. Though he bore the strength of his divine father, his earthly mother's influence ensured a heart as kind as the sun itself.
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x7f7bca3d1300>, <function end_of_line at 0x7f7bca3d25c0>, <function abbreviations at 0x7f7bca3d2660>, <function word_sub at 0x7f7bca3d2700>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|;|،|、|—|…|\\\n|，|¿|\\[|¡|\\(|\\]|。|：|‥|\\)', re.IGNORECASE) from: [<function tone_marks at 0x7f7bca3d2980>, <function period_comma at 0x7f7bca3d2a20>, <function colon at 0x7f7bca3d2ac0>, <function other_punctuation at 0x7f7bca3d2b60>]>
+DEBUG:gtts.tts:timeout: None
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x7f7bca3d1300>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x7f7bca3d25c0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x7f7bca3d2660>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x7f7bca3d2700>
+DEBUG:gtts.tts:tokenizing: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|;|،|、|—|…|\\\n|，|¿|\\[|¡|\\(|\\]|。|：|‥|\\)', re.IGNORECASE) from: [<function tone_marks at 0x7f7bca3d2980>, <function period_comma at 0x7f7bca3d2a20>, <function colon at 0x7f7bca3d2ac0>, <function other_punctuation at 0x7f7bca3d2b60>]>
+DEBUG:gtts.tts:text_parts: ['In the vast expanse of Ancient Greece', 'in the city-state of Thebes', 'there lived a mighty child named Alcides', 'Born to Zeus and the mortal woman Alcmene', 'he was fated for greatness from the very start', 'Though he bore the strength of his divine father', "his earthly mother's influence ensured a heart as kind as the sun itself."]
+DEBUG:gtts.tts:text_parts: 7
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22In%20the%20vast%20expanse%20of%20Ancient%20Greece%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG:gtts.tts:data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22in%20the%20city-state%20of%20Thebes%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG:gtts.tts:data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22there%20lived%20a%20mighty%20child%20named%20Alcides%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG:gtts.tts:data-3: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Born%20to%20Zeus%20and%20the%20mortal%20woman%20Alcmene%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG:gtts.tts:data-4: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22he%20was%20fated%20for%20greatness%20from%20the%20very%20start%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG:gtts.tts:data-5: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Though%20he%20bore%20the%20strength%20of%20his%20divine%20father%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG:gtts.tts:data-6: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22his%20earthly%20mother%27s%20influence%20ensured%20a%20heart%20as%20kind%20as%20the%20sun%20itself.%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com:443
+DEBUG:urllib3.connectionpool:https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '179'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='audio/audio2024-03-07 01:19:38.767946.mp3'>
+DEBUG:gtts.tts:part-0 created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com:443
+DEBUG:urllib3.connectionpool:https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '165'}
+DEBUG:gtts.tts:url-1: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-1: 200
+DEBUG:gtts.tts:part-1 written to <_io.BufferedWriter name='audio/audio2024-03-07 01:19:38.767946.mp3'>
+DEBUG:gtts.tts:part-1 created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com:443
+DEBUG:urllib3.connectionpool:https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '182'}
+DEBUG:gtts.tts:url-2: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-2: 200
+DEBUG:gtts.tts:part-2 written to <_io.BufferedWriter name='audio/audio2024-03-07 01:19:38.767946.mp3'>
+DEBUG:gtts.tts:part-2 created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com:443
+DEBUG:urllib3.connectionpool:https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-3: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '185'}
+DEBUG:gtts.tts:url-3: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-3: 200
+DEBUG:gtts.tts:part-3 written to <_io.BufferedWriter name='audio/audio2024-03-07 01:19:38.767946.mp3'>
+DEBUG:gtts.tts:part-3 created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com:443
+DEBUG:urllib3.connectionpool:https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-4: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '192'}
+DEBUG:gtts.tts:url-4: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-4: 200
+DEBUG:gtts.tts:part-4 written to <_io.BufferedWriter name='audio/audio2024-03-07 01:19:38.767946.mp3'>
+DEBUG:gtts.tts:part-4 created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com:443
+DEBUG:urllib3.connectionpool:https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-5: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '194'}
+DEBUG:gtts.tts:url-5: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-5: 200
+DEBUG:gtts.tts:part-5 written to <_io.BufferedWriter name='audio/audio2024-03-07 01:19:38.767946.mp3'>
+DEBUG:gtts.tts:part-5 created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com:443
+DEBUG:urllib3.connectionpool:https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-6: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '229'}
+DEBUG:gtts.tts:url-6: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-6: 200
+DEBUG:gtts.tts:part-6 written to <_io.BufferedWriter name='audio/audio2024-03-07 01:19:38.767946.mp3'>
+DEBUG:gtts.tts:part-6 created
+DEBUG:gtts.tts:Saved to audio/audio2024-03-07 01:19:38.767946.mp3
+DEBUG:gtts.tts:text: As a man, Hercules was known for his incredible feats and unwavering loyalty. However, it wasn't until he was cursed by Hera to serve the tyrannical King Eurystheus that he gained the title of "Hercules" – meaning 'Hail, Hero.'
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x7f7bca3d1300>, <function end_of_line at 0x7f7bca3d25c0>, <function abbreviations at 0x7f7bca3d2660>, <function word_sub at 0x7f7bca3d2700>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|;|،|、|—|…|\\\n|，|¿|\\[|¡|\\(|\\]|。|：|‥|\\)', re.IGNORECASE) from: [<function tone_marks at 0x7f7bca3d2980>, <function period_comma at 0x7f7bca3d2a20>, <function colon at 0x7f7bca3d2ac0>, <function other_punctuation at 0x7f7bca3d2b60>]>
+DEBUG:gtts.tts:timeout: None
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x7f7bca3d1300>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x7f7bca3d25c0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x7f7bca3d2660>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x7f7bca3d2700>
+DEBUG:gtts.tts:tokenizing: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|;|،|、|—|…|\\\n|，|¿|\\[|¡|\\(|\\]|。|：|‥|\\)', re.IGNORECASE) from: [<function tone_marks at 0x7f7bca3d2980>, <function period_comma at 0x7f7bca3d2a20>, <function colon at 0x7f7bca3d2ac0>, <function other_punctuation at 0x7f7bca3d2b60>]>
+DEBUG:gtts.tts:text_parts: ['As a man', 'Hercules was known for his incredible feats and unwavering loyalty', 'However', "it wasn't until he was cursed by Hera to serve the tyrannical King Eurystheus that he gained the", 'title of "Hercules" – meaning \'Hail', "Hero.'"]
+DEBUG:gtts.tts:text_parts: 6
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22As%20a%20man%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG:gtts.tts:data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Hercules%20was%20known%20for%20his%20incredible%20feats%20and%20unwavering%20loyalty%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG:gtts.tts:data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22However%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG:gtts.tts:data-3: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22it%20wasn%27t%20until%20he%20was%20cursed%20by%20Hera%20to%20serve%20the%20tyrannical%20King%20Eurystheus%20that%20he%20gained%20the%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG:gtts.tts:data-4: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22title%20of%20%5C%5C%5C%22Hercules%5C%5C%5C%22%20%5C%5Cu2013%20meaning%20%27Hail%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG:gtts.tts:data-5: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Hero.%27%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com:443
+DEBUG:urllib3.connectionpool:https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '142'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='audio/audio2024-03-07 01:19:40.541462.mp3'>
+DEBUG:gtts.tts:part-0 created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com:443
+DEBUG:urllib3.connectionpool:https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '214'}
+DEBUG:gtts.tts:url-1: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-1: 200
+DEBUG:gtts.tts:part-1 written to <_io.BufferedWriter name='audio/audio2024-03-07 01:19:40.541462.mp3'>
+DEBUG:gtts.tts:part-1 created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com:443
+DEBUG:urllib3.connectionpool:https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '137'}
+DEBUG:gtts.tts:url-2: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-2: 200
+DEBUG:gtts.tts:part-2 written to <_io.BufferedWriter name='audio/audio2024-03-07 01:19:40.541462.mp3'>
+DEBUG:gtts.tts:part-2 created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com:443
+DEBUG:urllib3.connectionpool:https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-3: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '262'}
+DEBUG:gtts.tts:url-3: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-3: 200
+DEBUG:gtts.tts:part-3 written to <_io.BufferedWriter name='audio/audio2024-03-07 01:19:40.541462.mp3'>
+DEBUG:gtts.tts:part-3 created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com:443
+DEBUG:urllib3.connectionpool:https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-4: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '209'}
+DEBUG:gtts.tts:url-4: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-4: 200
+DEBUG:gtts.tts:part-4 written to <_io.BufferedWriter name='audio/audio2024-03-07 01:19:40.541462.mp3'>
+DEBUG:gtts.tts:part-4 created
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com:443
+DEBUG:urllib3.connectionpool:https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-5: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '138'}
+DEBUG:gtts.tts:url-5: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-5: 200
+DEBUG:gtts.tts:part-5 written to <_io.BufferedWriter name='audio/audio2024-03-07 01:19:40.541462.mp3'>
+DEBUG:gtts.tts:part-5 created
+DEBUG:gtts.tts:Saved to audio/audio2024-03-07 01:19:40.541462.mp3
+INFO:root:Video saved!

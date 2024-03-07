@@ -1,7 +1,6 @@
 from langchain_community.llms import Ollama
 import logging
-
-llm = Ollama(model="storyteller")
+from gtts import gTTS
 
 
 class ContentGenerator:
@@ -13,7 +12,7 @@ class ContentGenerator:
         self.__content: str = ""
 
     def generate_content(self) -> [str]:
-        self.__content = llm.invoke(self.__prompt)
+        self.__content = self.__model.invoke(self.__prompt)
         data = self.__content.split("\n\n")
         parts_of_story = [line.strip().split("\n") for line in data]
         cleaned_data = []
@@ -24,7 +23,7 @@ class ContentGenerator:
                 cleaned_data.append(part)
         except IndexError:
             logging.error("""
-            Index out of range. Sometimes this might happen if the content generated from the model either 
+            Index out of range. Sometimes this might happen if the content generated from the model either is
             too small or too large to process. Please try again.
             """)
-        return cleaned_data
+        return [part[1] for part in cleaned_data]
