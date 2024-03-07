@@ -14,7 +14,7 @@ def start_gui_app() -> None:
     master.wm_iconphoto(False, photo)
     master.resizable(False, False)
     master.geometry("600x200")
-    master.title("VideoBot")
+    master.title("TubeShorty")
 
     logging.info("Program started!")
 
@@ -30,7 +30,7 @@ def start_gui_app() -> None:
         logging.info("Story generated!")
 
         logging.info("Initializing the VideoGenerator Object...")
-        vg = VideoGenerator(images=[file for file in glob.glob("images/*.jpg")],
+        vg = VideoGenerator(images=[file for file in glob.glob("images/*.png")],
                             display_size=(1080, 1920),
                             video_duration=60)
         logging.info("VideoGenerator Object initialized!")
