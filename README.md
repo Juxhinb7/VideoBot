@@ -1,5 +1,5 @@
 ![alt text](logos/tubeShorty3.png "Title")
-# TubeShorty
+# VideoBot
 This is a user interface-driven software I developed specifically for easily generating YouTube Shorts stories. It utilizes a graphical user interface (GUI) where, upon providing input prompts, you can describe and generate the story along with accompanying video footage, images, and audio through a single button.
 
 ### On Linux Platforms
