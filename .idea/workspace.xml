@@ -4,46 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="988f4ec6-2409-4ee0-8d0d-c6d8aae522b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/Hercules1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Hercules2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Hercules3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Hercules4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Hercules5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Hercules6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/program.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/VideoBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VideoBot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modelfile" beforeDir="false" afterPath="$PROJECT_DIR$/Modelfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/content_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dfggfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/achiles1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/achiles3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/achiles4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/achiles5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/achiles6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/achilles2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/alexander1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/alexander2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/alexander3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/alexander4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/alexander5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/alexander6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jesus1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jesus2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jesus3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jesus4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jesus5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jesus6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgres" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/video_generator.py" afterDir="false" />
+    <list default="true" id="988f4ec6-2409-4ee0-8d0d-c6d8aae522b3" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <change beforePath="$PROJECT_DIR$/logs/program.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/program.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,6 +357,36 @@
       <option name="presentableId" value="Default" />
       <updated>1709464232378</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding examples">
+      <option name="closed" value="true" />
+      <created>1709771023002</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709771023002</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding examples">
+      <option name="closed" value="true" />
+      <created>1709771086162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709771086162</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <option name="closed" value="true" />
+      <created>1709771154295</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709771154295</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding examples" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
   </component>
 </project>
