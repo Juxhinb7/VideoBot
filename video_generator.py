@@ -3,7 +3,6 @@ import logging
 import moviepy.editor as mpy
 from gtts import gTTS
 from datetime import datetime
-from pydub import AudioSegment
 
 
 class ArrayLengthMismatchException(Exception):
