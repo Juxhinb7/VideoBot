@@ -17,7 +17,7 @@ Visit the official Ollama page to download the platform on Mac:
 
 
 Within the designated 'audio' directory, will be stored the mp3 files corresponding to each paragraph and the combined audioclip utilized for the final video output.
-Inside the 'images' folder, upload your preferred images manually (a total of 6 images with 'jpg' extension are required) since the program only handles text, audio, and video generation, not image 
+Inside the 'images' folder, upload your preferred images manually (a total of 6 are required) since the program only handles text, audio, and video generation, not image 
 generation.
 Located within the 'logos' directory is the logo file for the desktop application.
 Lastly, inside the 'logs' folder resides the program.log file which serves to log essential information aiding in debugging efforts.
