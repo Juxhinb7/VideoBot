@@ -26,4 +26,4 @@ of the former.
 Lastly there is a special file called Modelfile that aids in creating a custom representation of the Ollama Model. After the installation and configuation of Ollama and an LLM Model for it. What is left to do is, to type this command at the terminal:
 ``ollama create delfini -f Modelfile``.
 Make sure to install all required dependencies in the directory path with: ``pip install -r requirements.txt``.
-After this step you are ready to execute the program.
+After this step you are ready to execute the program by running ``python main.py``.
