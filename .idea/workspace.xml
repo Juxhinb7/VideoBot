@@ -4,22 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="988f4ec6-2409-4ee0-8d0d-c6d8aae522b3" name="Changes" comment="Minor changes">
-      <change afterPath="$PROJECT_DIR$/images/odysseus1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/odysseus2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/odysseus3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/odysseus4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/odysseus5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/odysseus6.jpg" afterDir="false" />
+    <list default="true" id="988f4ec6-2409-4ee0-8d0d-c6d8aae522b3" name="Changes" comment="Changed gui title">
+      <change afterPath="$PROJECT_DIR$/images/Hercules1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Hercules2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Hercules3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Hercules4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Hercules5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Hercules6.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/achiles1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/achiles3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/achiles4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/achiles5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/achiles6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/achilles2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/odysseus1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/odysseus2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/odysseus3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/odysseus4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/odysseus5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/odysseus6.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/program.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/program.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
     &quot;Python.gui.executor&quot;: &quot;Run&quot;,
     &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
     &quot;Python.newtest.executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;Python.yt_generator.executor&quot;: &quot;Run&quot;,
@@ -318,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709774342179</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Changed gui title">
+      <option name="closed" value="true" />
+      <created>1709777486076</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709777486076</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -326,6 +333,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
     <MESSAGE value="removed unused import" />
     <MESSAGE value="Minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor changes" />
+    <MESSAGE value="Changed gui title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed gui title" />
   </component>
 </project>
