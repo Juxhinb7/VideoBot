@@ -12,11 +12,12 @@ Visit the official Ollama page to download the platform on Mac:
 
 
 ### Guide
- Occasionally, an "Index error" may occur when generating paragraphs from the AI model, where these paragraphs are larger than what can be effectively processed. In such instances, you have the option to retry generation by clicking on the "Generate" button again. The project's organization encompasses several folders, including 'audio', 
+ Sometimes, an "Index error" may occur when generating paragraphs from the AI model, where these paragraphs are larger than what can be effectively processed. In such instances, you have the option to retry generation by clicking on the "Generate" button again. The project's organization encompasses several folders, including 'audio', 'examples', 
 'images', 'logos', 'logs', and 'samples'.
 
 
 Within the designated 'audio' directory, will be stored the mp3 files corresponding to each paragraph and the combined audioclip utilized for the final video output.
+The 'examples' folder, provides a collection of screenshots in aspect ratio 9:16 of a Youtube Shorts video as an example.
 Inside the 'images' folder, upload your preferred images manually (a total of 6 images with jpg extension are required) since the program only handles text, audio, and video generation, not image 
 generation.
 Located within the 'logos' directory is the logo file for the desktop application.
@@ -28,8 +29,10 @@ Lastly there is a special file called Modelfile that aids in creating a custom r
 Make sure to install all required dependencies in the directory path with: `pip install -r requirements.txt`.
 After this step you are ready to execute the main.py file that opens the graphical user interface by typing and entering the following command: `python main.py`
 
-### Examples with screenshots in 9:16 aspect ratio
+### Examples with screenshots of Hercules in 9:16 aspect ratio 
 <img src="examples/example.png" width="300" height="450"/>
 <img src="examples/example2.png" width="300" height="450"/>
 <img src="examples/example3.png" width="300" height="450"/>
 <img src="examples/example4.png" width="300" height="450"/>
+<img src="examples/example5.png" width="300" height="450"/>
+<img src="examples/example6.png" width="300" height="450"/>
