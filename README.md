@@ -27,3 +27,9 @@ Lastly there is a special file called Modelfile that aids in creating a custom r
 `ollama create delfini -f Modelfile`.
 Make sure to install all required dependencies in the directory path with: `pip install -r requirements.txt`.
 After this step you are ready to execute the main.py file that opens the graphical user interface by typing and entering the following command: `python main.py`
+
+### Examples with screenshots in 9:16 aspect ratio
+<img src="examples/example.png" width="300" height="450"/>
+<img src="examples/example2.png" width="300" height="450"/>
+<img src="examples/example3.png" width="300" height="450"/>
+<img src="examples/example4.png" width="300" height="450"/>

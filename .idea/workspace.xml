@@ -4,22 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="988f4ec6-2409-4ee0-8d0d-c6d8aae522b3" name="Changes" comment="Changed gui title">
-      <change afterPath="$PROJECT_DIR$/images/Hercules1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Hercules2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Hercules3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Hercules4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Hercules5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Hercules6.jpg" afterDir="false" />
+    <list default="true" id="988f4ec6-2409-4ee0-8d0d-c6d8aae522b3" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <change afterPath="$PROJECT_DIR$/examples/example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/example2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/example3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/example4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/odysseus1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/odysseus2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/odysseus3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/odysseus4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/odysseus5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/odysseus6.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/program.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/program.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,31 +41,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.generate_content.executor&quot;: &quot;Run&quot;,
-    &quot;Python.generate_video.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gui (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.newtest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.yt_generator.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/juxhinb/PycharmProjects/VideoBot/images&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.generate_content.executor": "Run",
+    "Python.generate_video.executor": "Run",
+    "Python.gui (1).executor": "Run",
+    "Python.gui.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.newtest.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.yt_generator.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/juxhinb/PycharmProjects/VideoBot/examples",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples" />
+      <recent name="$PROJECT_DIR$/pdf_samples" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/../TubeShorty/images" />
       <recent name="$PROJECT_DIR$/logos" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/logos" />
@@ -85,7 +79,7 @@
       <command value="pip install -r requirements.txt" />
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.test">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="VideoBot" />
       <option name="ENV_FILES" value="" />
@@ -243,8 +237,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VideoBot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.test" />
       <item itemvalue="Python.content_generator" />
       <item itemvalue="Python.gui" />
       <item itemvalue="Python.gui (1)" />
@@ -252,11 +269,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.gui" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.gui (1)" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -325,15 +342,32 @@
       <option name="project" value="LOCAL" />
       <updated>1709777486076</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adjustments">
+      <option name="closed" value="true" />
+      <created>1709856324245</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709856324245</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <option name="closed" value="true" />
+      <created>1709856376217</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709856376217</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding examples" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
     <MESSAGE value="removed unused import" />
     <MESSAGE value="Minor changes" />
     <MESSAGE value="Changed gui title" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed gui title" />
+    <MESSAGE value="Adjustments" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
   </component>
 </project>
